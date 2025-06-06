@@ -43,7 +43,12 @@ else if (cash.checked){
 }
 else if (cliq.checked){
     moneyresult.textContent=`you have chosen to pay with cliq`;
-}
+    
+    }
+    else
+    {
+        moneyresult.textContent=`you have to choose a way to pay with`;
+    }
     }
 
 
